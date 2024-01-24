@@ -47,6 +47,8 @@ In the process of crafting a lensless camera from a standard webcam, the initial
 
 Calibrating a lensless camera essentially means computing the point spread function (PSF). In a conventional camera, the lens focuses light rays from a scene point onto a single pixel hence the PSF of a well-focused conventional camera is ideally a single point. In the case of the lensless camera, the scotch tap acts as a diffuser that spreads the light from a single point in the scene to multiple pixels. Moreover, the scotch tape does not have uniform thickness. Therefore, the PSF for scotch tape looks like images of caustics as shown in the following figure.
 
+To capture PSF we capture a point light source in a dark room where no other ambient light is present. The presence of ambient light would result in inaccurate PSF as the light would no longer be coming from a single point-light source. Inaccurate PSF would eventually result in poor image reconstruction. 
+
 
 
 
