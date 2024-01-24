@@ -1,2 +1,2 @@
-# SPAD-Simulator
-Physics-based modeling of SPAD sensor measurements. 
+# Lensless camera using a Scotch tape and a webcam
+Development of a low-cost lensless camera and its calibration. 
