@@ -49,18 +49,59 @@ Calibrating a lensless camera essentially means computing the point spread funct
 
 To capture PSF we capture a point light source in a dark room where no other ambient light is present. The presence of ambient light would result in inaccurate PSF as the light would no longer be coming from a single point-light source. Inaccurate PSF would eventually result in poor image reconstruction. 
 
+<p align='center'>
+  <img src='images/PSF.png' width="100%">
+</p>
+<p align='center'>
+    Figure 4 - Example of a point spread function image.
+</p>
+
+
+
+The following video shows the process of setting up the lensless camera with the diffuser and capturing some initial PSF measurements using a point light source.
+
 <p>
   <iframe width="100%" height="600" src="https://www.youtube.com/embed/2aBt1872YfM?si=wZbAF27hV1gV5GwP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 <p align='center'>
-    Initial setup for PSF capturing and lensless camera calibration.
+    Initial setup for PSF capturing and lensless camera calibration. Moving the point light source also shifts the PSF pattern.
+</p>
+
+## Capturing lensless image dataset
+
+Raw lensless measurements were obtained for two distinct scenarios. In the first setup, a large screen was positioned in front of the lensless camera, displaying images while the room remained devoid of additional light sources. In the second setup, representing real-world conditions, various objects were randomly arranged to create small scenes captured by the lensless camera. Finally, the Point Spread Function (PSF) is employed to reconstruct the scene image from the raw lensless images captured by the setup using the iterative gradient descent algorithm proposed in the DiffuserCam paper(1). 
+
+<p>
+  <iframe width="100%" height="600" src="https://www.youtube.com/embed/bZqHQWhGCLs?si=z_aYD1AK7LokFjYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+<p align='center'>
+  Experiment setup for the screen capture dataset. For most of the images displayed on the monitor, the raw lensless image (blurred-looking image on the right screen) is blurry and has no resemblance with the actual image.
 </p>
 
 
+## Results
 
+Findings from screen capture experiments reveal intriguing insights. The reconstruction algorithm proves effective for both simple and complex images, yielding accurate results.
+
+<p align='center'>
+  <img src='images/Results.png' width="100%">
+</p>
+<p align='center'>
+    Figure 5 - Reconstruction results for screen capture setup.
+</p>
+
+
+## Future work
+
+* Training a deep learning network to predict the reconstructed image from raw lensless camera measurements.
+* Simulating PSF dataset using physics-based rendering.
 
 <p>
   <iframe width="100%" height="600" src="https://www.youtube.com/embed/9gnltE2Vnm0?si=a4iAragEN_lMu5Mn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p align='center'>
+    As an exploratory task and for future objectives of the project, a blender-based simulator was created to generate a wide range of PSF images. The simulated PSF images can be used to generate the raw lensless measurements for any image.
 </p>
 
 
