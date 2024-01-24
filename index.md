@@ -58,4 +58,3 @@ To capture PSF we capture a point light source in a dark room where no other amb
 
 ## References
 1. Nick Antipa, Grace Kuo, Reinhard Heckel, Ben Mildenhall, Emrah Bostan, Ren Ng, and Laura Waller, "DiffuserCam: lensless single-exposure 3D imaging," Optica 5, 1-9 (2018)
-2. 
