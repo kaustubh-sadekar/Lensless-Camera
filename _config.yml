@@ -1,0 +1,6 @@
+theme: minima
+title: Lensless camera using a Scotch tape and a webcam
+description: Development of a low-cost lensless camera and its calibration.
+
+header_pages:
+  about.md
