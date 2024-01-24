@@ -50,7 +50,7 @@ Calibrating a lensless camera essentially means computing the point spread funct
 To capture PSF we capture a point light source in a dark room where no other ambient light is present. The presence of ambient light would result in inaccurate PSF as the light would no longer be coming from a single point-light source. Inaccurate PSF would eventually result in poor image reconstruction. 
 
 <p align='center'>
-  <img src='images/PSF.png' width="100%">
+  <img src='images/PSF.jpg' width="100%">
 </p>
 <p align='center'>
     Figure 4 - Example of a point spread function image.
