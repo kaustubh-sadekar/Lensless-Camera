@@ -96,13 +96,6 @@ Findings from screen capture experiments reveal intriguing insights. The reconst
 * Training a deep learning network to predict the reconstructed image from raw lensless camera measurements.
 * Simulating PSF dataset using physics-based rendering.
 
-<p>
-  <iframe width="100%" height="600" src="https://www.youtube.com/embed/9gnltE2Vnm0?si=a4iAragEN_lMu5Mn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
-
-<p align='center'>
-    As an exploratory task and for future objectives of the project, a blender-based simulator was created to generate a wide range of PSF images. The simulated PSF images can be used to generate the raw lensless measurements for any image.
-</p>
 
 
 ---
