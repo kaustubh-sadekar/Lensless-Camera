@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Lensless camera using a Scotch tape and a webcam
+# Lensless Imaging: Replacing a Camera Lens with Scotch Tape!
 
 <!-- Place this tag where you want the button to render.
 <a class="github-button" href="https://github.com/kaustubh-sadekar/SPAD-Simulator" target="blank_" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Star kaustubh-sadekar/SPAD-Simulator on GitHub">Star Repository</a> -->
